@@ -1,0 +1,41 @@
+@import '../styles/vars.css';
+
+.form {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 300px;
+	max-width: 100%;
+	border: 1px solid var(--c-grey);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.input,
+.button {
+  height: 100%;
+  width: 100%;
+	text-align: center;
+	padding: 10px 15px 9px 15px;
+  background-color: transparent;
+}
+
+.input {
+	border-bottom: 1px solid var(--c-grey);
+  transition: var(--transition);
+}
+.input::placeholder {
+	color: var(--c-grey);
+}
+.input:hover,
+.input:focus {
+	background-color: var(--c-white);
+}
+
+.button {
+	transition: var(--transition);
+}
+.button:hover,
+.button:focus {
+	background-color: var(--c-yellow);
+}

@@ -1,0 +1,6 @@
+.pizzasList {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}

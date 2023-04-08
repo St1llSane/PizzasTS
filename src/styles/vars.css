@@ -1,0 +1,7 @@
+:root {
+	--c-white: #ffffff;
+	--c-black: #1b1e22;
+	--c-grey: #bbbbbb;
+  --c-yellow: #f0eba2;
+	--transition: all 0.15s ease;
+}
